@@ -45,14 +45,14 @@ ul {
     /*background-color: green;*/
 }
 
-.login {
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-label {
+form label {
     display: flex;
     flex-direction: column;
 }
@@ -61,12 +61,11 @@ label {
 
 .five {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 article {
-    display: flex;
-    flex-direction: column;
-    min-width: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 360px;
 }
-
